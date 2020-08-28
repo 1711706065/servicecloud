@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="servicecloud-api" />
+        <module name="servicecloud-config-3344" />
+        <module name="servicecloud-config-client-3355" />
+        <module name="servicecloud-config-dept-client-8001" />
+        <module name="servicecloud-config-eureka-client-7001" />
+        <module name="servicecloud-consumer-dept-80" />
+        <module name="servicecloud-consumer-dept-feign" />
+        <module name="servicecloud-consumer-hystrix-dashboard" />
+        <module name="servicecloud-eureka-7001" />
+        <module name="servicecloud-eureka-7002" />
+        <module name="servicecloud-eureka-7003" />
+        <module name="servicecloud-oauth-client-8888" />
+        <module name="servicecloud-oauth-server-9040" />
+        <module name="servicecloud-provider-dept-8001" />
+        <module name="servicecloud-provider-dept-8002" />
+        <module name="servicecloud-provider-dept-8003" />
+        <module name="servicecloud-provider-dept-hystrix" />
+        <module name="servicecloud-security-8899" />
+        <module name="servicecloud-swagger-6000" />
+        <module name="servicecloud-zuul-gateway-9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="servicecloud" target="1.8" />
+      <module name="servicecloud-api" target="1.8" />
+      <module name="servicecloud-config-3344" target="1.8" />
+      <module name="servicecloud-config-client-3355" target="1.8" />
+      <module name="servicecloud-config-dept-client-8001" target="1.8" />
+      <module name="servicecloud-config-eureka-client-7001" target="1.8" />
+      <module name="servicecloud-consumer-dept-80" target="1.8" />
+      <module name="servicecloud-consumer-dept-feign" target="1.8" />
+      <module name="servicecloud-consumer-hystrix-dashboard" target="1.8" />
+      <module name="servicecloud-eureka-7001" target="1.8" />
+      <module name="servicecloud-eureka-7002" target="1.8" />
+      <module name="servicecloud-eureka-7003" target="1.8" />
+      <module name="servicecloud-oauth-client-8888" target="1.7" />
+      <module name="servicecloud-oauth-server-9040" target="1.7" />
+      <module name="servicecloud-provider-dept-8001" target="1.8" />
+      <module name="servicecloud-provider-dept-8002" target="1.8" />
+      <module name="servicecloud-provider-dept-8003" target="1.8" />
+      <module name="servicecloud-provider-dept-hystrix" target="1.8" />
+      <module name="servicecloud-security-8899" target="1.7" />
+      <module name="servicecloud-swagger-6000" target="1.8" />
+      <module name="servicecloud-zuul-gateway-9527" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

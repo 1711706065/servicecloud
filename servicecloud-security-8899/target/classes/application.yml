@@ -1,0 +1,30 @@
+server:
+  port: 8899
+spring:
+  application:
+    name: servicecloud-security
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/clouddb01?useSSL=false
+    username: root
+    password: root
+
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+#security:
+#  basic:
+#    enabled: false  # 关闭http-basic方式的认证弹窗
+#management:
+#  security:
+#    enabled: false
+#eureka:
+#   client:
+#      service-url:
+#         defaultZone: http://eureka7001.com:7001/eureka/

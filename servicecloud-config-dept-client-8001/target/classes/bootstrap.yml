@@ -1,0 +1,7 @@
+spring: 
+   cloud: 
+      config: 
+         name: servicecloud-config-dept-client #需要从git读取的资源名称，没有后缀
+         profile: test #本次访问的配置项
+         label: master
+         uri: http://localhost:3344 #本微服务启动后先去找3344服务，通过springcloudconfig获取GitHub的服务地址

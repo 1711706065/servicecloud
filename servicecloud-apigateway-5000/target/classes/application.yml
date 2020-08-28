@@ -1,0 +1,12 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: servicecloud-apigateway
+  cloud:
+    gateway:
+      routes:
+      - id: lmc
+        uri: http://www.baidu.com
+        predicates:
+        - Path=/lmchh

@@ -1,0 +1,33 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: servicecloud-oauth-client
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/clouddb01?useSSL=false
+    username: root
+    password: root
+
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+security:
+  oauth2:
+    client:
+      client-id: admin
+      client-secret: admin
+      access-token-uri: http://localhost:8899/oauth/token
+      user-authorization-uri: http://localhost:8899/oauth/authorize
+      grant-type: client_credentials, password
+      scope: webclient
+    resource:
+      user-info-uri: http://localhost:8899/oauth/user
+  basic:
+    enabled: false
